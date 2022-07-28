@@ -1,0 +1,223 @@
+.section {
+    width: 100%;
+    float: left;
+}
+.sectionTopstory {
+    padding-top: 20px;
+}
+.flexbox {
+    display: flex;
+}
+.container {
+    width: 100%;
+    max-width: 1130px;
+    padding: 0 15px;
+    margin: 0 auto;
+    position: relative;
+    &::after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}
+.colLeftTop {
+    width: 780px;
+}
+.wrapperTopStory {
+    min-height: inherit;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.widthCommon {
+    width: 100%;
+    float: left;
+}
+
+.subNewsTop {
+    padding-top: 0;
+    border-top: none;
+    margin-top: 20px;
+    width: 100%;
+    padding-left: 0;
+    height: auto;
+}
+.innerSubNewsTop {
+    position: static;
+    left: 15px;
+    height: 100%;
+    top: 0;
+    overflow: hidden;
+}
+.scrollSubFeatured {
+    width: 100%;
+    float: left;
+    max-height: 100%;
+}
+.listSubFeature {
+    width: calc(100% + 20px);
+    margin-left: -20px;
+    font-size: 0;
+    padding-right: 0;
+}
+
+.listSubFeature li {
+    width: 32.5%;
+    float: none;
+    padding-left: 20px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 0;
+    padding-top: 0;
+    border-top: none;
+}
+.colRightTop {
+    width: 320px;
+    padding-left: 20px;
+}
+.boxCategory {
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+}
+.colRightTop .boxCategory:last-child {
+    margin-bottom: 0;
+}
+.bannerAds {
+    width: 100%;
+    float: left;
+    text-align: center;
+    overflow: hidden;
+    clear: both;
+
+    justify-content: center;
+}
+.lazier {
+    width: 1px;
+    height: 1px;
+    clear: both;
+}
+.titleNews {
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Merriweather', serif;
+    line-height: 160%;
+}
+.description {
+    margin-top: 10px;
+}
+#gocnhin {
+    width: 35%;
+    padding-left: 40px;
+    position: relative;
+}
+#gocnhin::before {
+    width: 2px;
+    height: 100%;
+    content: '';
+    background: #e5e5e5;
+    position: absolute;
+    top: 0;
+    left: 20px;
+}
+//--------------streamhome--------------
+.hasBorder {
+    margin-top: 20px;
+    padding-top: 20px;
+    &::before {
+        width: calc(100% - 30px);
+        background: #e5e5e5;
+        height: 1px;
+        position: absolute;
+        top: 0;
+        left: 15px;
+        content: '';
+    }
+}
+.colLeft {
+    padding-right: 15px;
+    position: relative;
+    padding-right: 20px;
+    &::after {
+        content: '';
+        width: 1px;
+        height: 100%;
+        background: #e5e5e5;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+}
+
+.colSmall {
+    width: 400px;
+}
+.colRight {
+    padding-left: 20px;
+}
+.colMedium {
+    width: 700px;
+}
+.innerSectionVideo {
+    margin: 40px 0 20px 0;
+    background: #fcfaf6;
+    position: relative;
+    &::before {
+        content: '';
+        background: #fcfaf6;
+        position: absolute;
+        top: -20px;
+        left: -15px;
+        right: -15px;
+        bottom: -20px;
+        border: 1px solid #f0eeea;
+    }
+}
+.titleBox {
+    display: block;
+    position: relative;
+    font-size: 18px;
+    line-height: 23px;
+    margin-bottom: 20px;
+    font-family: 'Merriweather', serif;
+    color: #222;
+    font-weight: bold;
+}
+.boxPodcart {
+    border: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.innerPodcast {
+    background: none;
+    border: none;
+    padding: 0;
+}
+.parentCate {
+    float: left;
+}
+.innerTitle {
+    position: relative;
+    display: inline-block;
+    &::before {
+        content: '';
+        width: 100%;
+        height: 1px;
+        background: #9f224e;
+        position: absolute;
+        left: 0;
+        bottom: -5px;
+    }
+    &:hover {
+        color: #065e9d;
+    }
+}
+.listPodcast2 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 40px;
+}

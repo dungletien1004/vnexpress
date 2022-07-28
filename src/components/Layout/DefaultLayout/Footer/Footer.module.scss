@@ -1,0 +1,195 @@
+a {
+    color: inherit;
+    text-decoration: none;
+    outline: 1;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.footer {
+    clear: both;
+}
+.wrapper {
+    width: 100%;
+    max-width: 1130px;
+    padding: 0 15px;
+    margin: 0 auto;
+    position: relative;
+}
+.inner {
+    border-top: 5px solid #e5e5e5;
+    padding: 20px 0;
+    font-size: 14px;
+    margin-top: 15px;
+    display: flex;
+}
+
+.widthCommon {
+    width: 100%;
+    float: left;
+}
+.list-menu-footer {
+    width: 170px;
+    padding-right: 30px;
+    font-size: 14px;
+    position: relative;
+    &:first-of-type {
+        font-weight: bold;
+    }
+}
+.list-menu-footer li {
+    width: 100%;
+    float: left;
+    margin-bottom: 15px;
+}
+.list-menu-footer li a {
+    position: relative;
+    display: inline-block;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+.bordertop {
+    padding-top: 15px;
+    border-top: 1px solid #e5e5e5;
+}
+.wrap-contact {
+    width: 270px;
+    position: relative;
+    line-height: 120%;
+    &::before {
+        content: '';
+        width: 1px;
+        height: 100%;
+        position: absolute;
+        left: -15px;
+        background: #e5e5e5;
+    }
+}
+.contact {
+    margin-bottom: 8px;
+    line-height: 120%;
+    &::after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}
+.contact p {
+    margin-bottom: 6px;
+    color: #757575;
+}
+.btnContact {
+    width: 120px;
+    float: left;
+    border-radius: 3px;
+    height: 32px;
+    line-height: 30px;
+    background: #f7f7f7;
+    border: 1px solid #e5e5e5;
+    font-size: 14px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 10px;
+    &:hover {
+        background-color: #e5e5e5;
+    }
+}
+.eLogo {
+    width: 16px;
+    height: 16px;
+    fill: #757575;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-top: -1px;
+}
+.app_evne {
+    margin-right: 0;
+}
+.coppyRight {
+    color: #757575;
+    font-size: 14px;
+    line-height: 120%;
+    padding: 10px 0;
+    border-top: 1px solid #e0e0e0;
+}
+.baoDT {
+    position: relative;
+    top: 3px;
+    float: left;
+}
+.copyright .logo_ft {
+    vertical-align: middle;
+    margin: 0 20px 0 0;
+}
+.logoFT span {
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px 8px 0 0;
+    color: #222;
+}
+.right {
+    display: flex;
+    align-items: center;
+    float: right !important;
+}
+.right a {
+    display: inline-block;
+    margin-left: 10px;
+}
+.txt-follow {
+    margin-left: 10px;
+    padding-left: 10px;
+    border-left: 1px solid #e5e5e5;
+}
+.face {
+    width: 32px;
+    height: 32px;
+    border: 1px solid #e5e5e5;
+    background: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    &:hover {
+        background: #3b5999;
+        border: 1px solid #3b5999;
+    }
+}
+.twitter {
+    width: 32px;
+    height: 32px;
+    border: 1px solid #e5e5e5;
+    background: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 10px;
+    &:hover {
+        background: #55acee;
+        border: 1px solid #55acee;
+    }
+}
+.youtube {
+    width: 32px;
+    height: 32px;
+    border: 1px solid #e5e5e5;
+    background: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 10px;
+    &:hover {
+        background: #c00;
+        border: 1px solid #c00;
+    }
+}
+.endFooter {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    font: 400 15px arial;
+    justify-content: space-between;
+}
